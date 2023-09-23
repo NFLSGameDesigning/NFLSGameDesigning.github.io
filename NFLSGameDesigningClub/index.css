@@ -1,0 +1,284 @@
+
+
+
+@font-face {
+    font-family: 'Into The Void';
+    src: url('IntoTheVoid.woff2') format('woff2'),
+    url('IntoTheVoid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neon Zone';
+    src: url('NeonZone.woff2') format('woff2'),
+    url('NeonZone.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Vibur';
+    src: url('Vibur.woff2') format('woff2'),
+    url('Vibur.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+body{
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+    background-color: black;
+}
+
+body.index {
+    /*background-image: url("108391347_0_final.png");*/
+    /*background-image: url("R-C.jpg");*/
+
+    background-color: black;
+
+}
+
+body.AboutUs{
+    background-image: url("R-C.jpg");
+}
+
+body.MeetingTime{
+    background-image: url("108375195_0_final.png");
+}
+
+body.Members
+{
+    background-image: url("2.png");
+
+    background-size: 100%;
+}
+
+.lightRed{
+    color: #fefefe;
+    text-shadow: 0 0 0.9em rgb(208, 55, 55), 0 0 1000em #5c5c5c;
+    /*text-shadow: 0 0 5px #fff,*/
+    /*0 0 10px #fff,*/
+    /*0 0 15px #fff,*/
+    /*0 0 20px rgb(208, 55, 55),*/
+    /*0 0 35px rgb(208, 55, 55),*/
+    /*0 0 40px rgb(208, 55, 55),*/
+    /*0 0 50px rgb(208, 55, 55),*/
+    /*0 0 75px rgb(208, 55, 55);*/
+}
+
+.lightGreen{
+    color: #fefefe;
+    text-shadow: 0 0 0.3em rgb(55, 208, 58), 0 0 1em #5c5c5c;
+}
+
+.lightSeagreen {
+
+    color: white;
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
+    0 0 30px rgba(202, 228, 225, 0.42),
+    0 0 12px #25837e,
+    0 0 22px #20b2aa,
+    0 0 38px #0ec4ba,
+    0 0 60px #3ec8c1;
+}
+
+.lightBlue{
+    text-shadow:
+            0 0 6px rgba(202,228,225,0.92),
+            0 0 30px rgba(202,228,225,0.34),
+            0 0 12px rgba(30,132,242,0.52),
+            0 0 21px rgba(30,132,242,0.92),
+            0 0 34px rgba(30,132,242,0.78),
+            0 0 54px rgba(30,132,242,0.92);
+}
+
+.lightYellow{
+    text-shadow:
+            0 0 6px rgba(255, 255, 255, 0.92),
+            0 0 30px rgba(202,228,225,0.34),
+            0 0 12px #FFEFD5,
+            0 0 21px #FAFAD2,
+            0 0 34px #FFFACD,
+            0 0 54px #FFFFE0;
+}
+
+.lightPurple{
+    text-shadow:
+            0 0 6px rgba(255, 255, 255, 0.92),
+            0 0 30px rgba(202,228,225,0.34),
+            0 0 12px #800080,
+            0 0 21px #8B008B,
+            0 0 34px #9932CC,
+            0 0 54px #9400D3;
+}
+
+h1 {
+    text-align: center;
+    border: 10px;
+
+    font-family: "Neon Zone";
+    font-size: 61px;
+
+    animation: neonBlue .08s ease-in-out infinite alternate;
+}
+
+h6 {
+
+    font-size: 15px;
+
+    margin-top: 0px;
+
+
+    color: white;
+
+    text-align: center;
+    font-family: "Into The Void";
+}
+
+.BlinkGreen
+{
+    animation: neonGreen .08s ease-in-out infinite alternate;
+}
+
+p{
+    font-weight: bold;
+
+    color: white;
+}
+
+p.Description{
+    font-family: "Vibur", cursive;
+
+    font-size: 25px;
+}
+
+p.content{
+    font-family: "Bodoni MT Poster Compressed";
+
+    font-size: 39px;
+}
+
+position
+{
+    font-family: "Book Antiqua";
+
+    color: white;
+
+    font-size: 17px;
+}
+
+.box {
+
+
+    padding: 10px;
+
+    box-shadow: 0 0 1em lightcoral, 0 0 2em #5c5c5c;;
+    border-radius: 10px;
+
+    width: 120px;
+}
+
+.button{
+
+}
+
+@keyframes neonBlue {
+    from {
+        text-shadow:
+                0 0 6px rgba(202,228,225,0.92),
+                0 0 30px rgba(202,228,225,0.34),
+                0 0 12px rgba(30,132,242,0.52),
+                0 0 21px rgba(30,132,242,0.92),
+                0 0 34px rgba(30,132,242,0.78),
+                0 0 54px rgba(30,132,242,0.92);
+    }
+    to {
+        text-shadow:
+                0 0 6px rgba(202,228,225,0.98),
+                0 0 30px rgba(202,228,225,0.42),
+                0 0 12px rgba(30,132,242,0.58),
+                0 0 22px rgba(30,132,242,0.84),
+                0 0 38px rgba(30,132,242,0.88),
+                0 0 60px rgba(30,132,242,1);
+    }
+}
+
+@keyframes neonGreen {
+    from {
+        text-shadow:
+                0 0 6px rgba(202,228,225,0.92),
+                0 0 30px rgba(202,228,225,0.34),
+                0 0 12px #25837e,
+                0 0 21px #20b2aa,
+                0 0 34px #0ec4ba,
+                0 0 54px #3ec8c1;
+    }
+    to {
+        text-shadow:
+                0 0 6px rgba(202,228,225,0.98),
+                0 0 30px rgba(202,228,225,0.42),
+                0 0 12px #25837e,
+                0 0 22px #20b2aa,
+                0 0 38px #0ec4ba,
+                0 0 60px #3ec8c1;
+    }
+}
+
+#div1{text-align: center;}
+
+.section{
+    font-size: 15px;
+
+    /*text-align: center;*/
+
+    display: inline-block;padding-left: 5px;padding-right: 5px;margin-left: 5px;margin-right: 5px;
+
+    color: white;
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
+    0 0 30px rgba(202, 228, 225, 0.42),
+    0 0 12px #c61675,
+    0 0 22px #ff1493,
+    0 0 38px #ff0095,
+    0 0 60px #ee69b1;
+    font-family: "Into The Void";
+}
+
+.section:hover {
+    cursor: pointer;
+
+    text-shadow:
+            0 0 6px rgba(202,228,225,0.98),
+            0 0 30px rgba(202,228,225,0.42),
+            0 0 12px rgba(30,132,242,0.58),
+            0 0 22px rgba(30,132,242,0.84),
+            0 0 38px rgba(30,132,242,0.88),
+            0 0 60px rgba(30,132,242,1);
+}
+
+.section:active{
+    text-shadow:
+            0 0 6px rgba(202,228,225,0.98),
+            0 0 30px rgba(202,228,225,0.42),
+            0 0 12px #25837e,
+            0 0 22px #20b2aa,
+            0 0 38px #0ec4ba,
+            0 0 60px #3ec8c1;
+}
+
+a{
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+h2{
+    color: white;
+}
+
